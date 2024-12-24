@@ -1,7 +1,6 @@
 import express from 'express';
 import mongoose  from 'mongoose';
 import { PORT,connections_String } from './config.js';
-import {TODO} from "./models/ToDoSchema.js"
 import router from './routes/Todo.js';
 import cors from 'cors';
 

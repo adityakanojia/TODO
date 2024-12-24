@@ -9,7 +9,7 @@ import {Routes,Route} from 'react-router-dom'
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Navbar/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/home' element={<Home/>}/>
       <Route path='/create-task' element={<CreateTask/>}/>
       <Route path='/tasks/edit/:id' element={<Edittask/>}/>
